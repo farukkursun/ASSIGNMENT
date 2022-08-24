@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+.container div {
+  width: 33.3%;
+}
+.bir {
+  border: 1px solid black;
+
+  background-color: gray;
+}
+
+.iki {
+  
+  background-color: lightcyan;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.uc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border: 1px solid black;
+
+  background-color: lightblue;
+}
+.iki a {
+  display: inline-block;
+  background-color: lightcyan;
+  font-size: 22px;
+  border-radius: 8px;
+
+  text-decoration: none;
+  color: black;
+}
+.iki a:hover {
+  background-color: aqua;
+  font-size: 30px;
+  color: white;
+  transition: all 2s ease-in-out;
+}
+.uc i {
+  font-size: 25px;
+  margin: 0px 8px;
+}
+.uc i:hover {
+  transform: scale(2);
+}

@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(48, 45, 45);
+    font-size: 40px;
+}
+.pembe{
+    margin-top: 20px;
+    color: white;
+    background-color: pink;
+    display: flex;
+   
+}
+.logo{
+    background-color: greenyellow;
+    text-align: center;
+    margin: 3px;
+    border: 2px solid black;
+    width: 25%;
+    
+}
+.menu{
+    background-color: rgb(28, 132, 192);
+    text-align: center;
+    margin: 3px;
+    width: 75%;
+     border: 2px solid black;
+}
+.kirmizi{
+    background-color: red;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    height: 12rem;
+
+
+}
+.yesil{
+     margin-top: 3px;
+
+    display: flex;
+}
+.yesil div{
+   
+    background-color: rgb(74, 243, 74);
+    width: 33.333333%;
+    height: 7rem;
+    margin: 1px;
+    
+}
+.turuncu{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.turuncu div{
+    margin: 8px;
+    background-color: orange;
+    height: 5rem;
+}
+.col-3{
+   width: 12%; 
+}
+.col-6{
+    width: 40%;
+}
+.yesil2{
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+
+}
+.yesil2 div{
+    margin: 8px;
+    background-color: darkgreen;
+    height: 5rem;
+
+}
+.col-4{
+    width: 30%;
+}
+.col-2{
+    width: 16%;
+}

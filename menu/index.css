@@ -7,7 +7,7 @@ body{
     color: white;
     background-color: pink;
     display: flex;
-   
+   height: 4rem;
 }
 .logo{
     background-color: greenyellow;
@@ -31,13 +31,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 25px;
-    height: 12rem;
+    margin-top: 48px;
+    height: 18rem;
 
 
 }
 .yesil{
-     margin-top: 3px;
+     margin-top: 16px;
 
     display: flex;
 }
@@ -45,7 +45,7 @@ body{
    
     background-color: rgb(74, 243, 74);
     width: 33.333333%;
-    height: 7rem;
+    height: 10rem;
     margin: 1px;
     
 }
@@ -57,7 +57,7 @@ body{
 .turuncu div{
     margin: 8px;
     background-color: orange;
-    height: 5rem;
+    height: 7rem;
 }
 .col-3{
    width: 12%; 
@@ -74,7 +74,7 @@ body{
 .yesil2 div{
     margin: 8px;
     background-color: darkgreen;
-    height: 5rem;
+    height: 7rem;
 
 }
 .col-4{

@@ -14,9 +14,10 @@ body {
   margin-top: 3rem;
   padding: 1.2rem;
   background-color: black;
-  width: 30rem;
-  height: 50rem;
+  width: 27rem;
+  height: 45rem;
   border-radius: 30px;
+  
 }
 .ekran {
   margin-top: 2rem;
@@ -33,8 +34,8 @@ body {
 }
 .parca {
   font-size: 2rem;
-  width: 6rem;
-  height: 6rem;
+  width: 5.3rem;
+  height: 5.3rem;
   margin: 0.3rem;
 
   border-radius: 50%;
@@ -51,8 +52,8 @@ body {
 }
 .parca17 {
   grid-column: 1/3;
-  height: 6rem;
-  width: 13rem;
+  height: 5rem;
+  width: 11rem;
   border-radius: 4rem;
   justify-content: flex-start;
   padding-left: 2.6rem;

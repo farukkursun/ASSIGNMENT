@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: 20rem 20rem 20rem 16rem;
+    grid-template-rows:10rem 20rem 16rem 8rem ;
+}
+.parca{
+    background-color: rgb(86, 173, 202);
+    border: 1px solid white;
+    margin: 0.5rem;
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+    font-weight: 800;
+    
+}
+.parca1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.parca5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column: 4;
+}
+.parca6{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.parca7{
+   grid-column-start: 1;
+    grid-column-end: 5; 
+}

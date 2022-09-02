@@ -1,11 +1,12 @@
 body{
   box-sizing: border-box;
   font-size: 1rem;
-  /* opacity: 80%; */
+ 
   font-family: Arial, Helvetica, sans-serif;
 }
 .title{
   text-align: center;
+  font-weight: 300;
 }
 .container {
   /* border: 1px solid gray; */
@@ -14,6 +15,7 @@ body{
   justify-content: center;
 }
 .formarea {
+   opacity: 80%;
   /* margin-top: 4rem; */
   /* border: 1px solid red; */
   width: 40rem;
@@ -22,10 +24,7 @@ body{
   margin-bottom: 0.5rem;
  
 }
-.border{
 
-  /* border: 1px solid gray; */
-}
 form{
   /* width: 24rem; */
   /* /* padding: 1rem;  */
@@ -81,34 +80,42 @@ i{
   border: none;
   outline: none;
 }
-.inputek{
 
-}
 img {
   width: 8rem;
 }
 .btn{
-  text-align: center;
+  text-align: end;
 }
 .btn button{
+  text-align: ;
   margin-left: 10px;
   width: 100px;
   height: 40px;
   background-color: orange;
   border: none;
   color: white;
+  border-radius: 10px;
+  cursor: pointer;
 }
 h2{
   padding-left: 10px;
 }  
-
+.orengep{
+  color: orangered;
+  font-weight: 600;
+}
+.orengep span{
+  color:gray;
+  font-weight: 100;
+}
 .area {
   /* border: 1px solid green; */
   
   margin: 2rem 5rem;
   background-color: rgb(236, 236, 236);
   width: 25rem;
-  height: 27rem;
+  height: 29rem;
   border-radius: 10px;
 }
 .btn2 {
@@ -137,6 +144,10 @@ h2{
 .area2 {
   display: flex;
 }
+.area3{
+  margin-top: 1.5rem;
+  padding: 1rem;
+}
 
 .foto {
   padding: 1rem;
@@ -144,14 +155,18 @@ h2{
 
 .shp, .tt {
   
-  padding: 0 1rem;
-  padding-bottom: 1rem;
+  padding:0 1rem;
+  padding-top: 0.5rem;
+  /* padding-bottom: 1rem; */
   display: flex;
   justify-content: space-between;
   border-top:1px solid gray;
   height: 2rem;
 }
-
+.shp p, .tt p{
+  margin: 0;
+  padding: 0;
+}
 
 @media (max-width:1350px){
   .formarea {

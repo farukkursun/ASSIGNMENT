@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <h1 class="title" >Checkout</h1>
+    <div class="container">
+      
+      <div class="formarea">
+        <form class="border" action="#">
+          <div class="baslik"><h2>Contact Informations</h2></div>
+          <div class="satir">
+            <label for="email">Email</label>
+            <div class="input email">
+              <i class="fa-regular fa-envelope"></i>
+              <input
+              class="inputic"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+          </div>
+          <div class="satir">
+            <label for="tel">Phone</label>
+            <div class="input phone">
+              <i class="fa-solid fa-phone"></i>
+              <input
+                class="inputic"
+                type="tel"
+                id="tel"
+                placeholder="Enter your phone..."
+                required
+              />
+            </div>
+          </div>
+          <div class="baslik2"><h2>Shipping address</h2></div>
+          <div class="satir">
+            <label for="ad">Full name</label>
+            <div class="input name">
+              <i class="fa-solid fa-user"></i>
+              <input
+              class="inputic"
+                type="text"
+                id="ad"
+                placeholder="Enter your Full name..."
+                required
+              />
+            </div>
+          </div>
+          <div class="satir">
+            <label for="adres">Address</label>
+            <div class="input adress">
+              <i class="fa-solid fa-house"></i>
+              <input
+              class="inputic"
+                type="text"
+                id="adres"
+                placeholder="Enter your address..."
+                required
+              />
+            </div>
+          </div>
+          <div class="satir">
+            <label for="city">City</label>
+            <div class="input city">
+              <i class="fa-solid fa-city"></i>
+              <input
+              class="inputic"
+                type="text"
+                id="city"
+                placeholder="Enter your city..."
+                required
+              />
+            </div>
+          </div>
+          <div class="cpost">
+            <div class="satir">
+              <label for="country">Country</label>
+              <div class="inputcountry">
+                <i class="fa-solid fa-earth-americas"></i>
+                <select name="country" id="country" class="inputic">
+                  <option value="Turkey">Turkey</option>
+                  <option value="Germany">Germany</option>
+                  <option value="usa">USA</option>
+                  <option value="Canada">Canada</option>
+                  <option value="uk">UK</option>
+                </select>
+              </div>
+            </div>
+            <div class="satir">
+              <label for="pcodu">Post Code</label>
+              <div class="input pkodu">
+                <i class="fa-solid fa-envelopes-bulk"></i>
+                <input
+                class="inputic"
+                  type="text"
+                  id="pcodu"
+                  placeholder="Enter your postal code..."
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="satir">
+            <input type="checkbox" id="chk" class="inputek" />
+            <label for="chk">See this information next tume</label>
+          </div>
+          <div class="btn">
+            <button>Continue</button>
+          </div>
+        </form>
+      </div>
+      <div class="area">
+        <div class="area1">
+          <div class="foto">
+            <img src="./IMG/photo1.png" alt="" />
+          </div>
+          <div class="yazi1">
+            <div class="yazi">
+              <p>Vintage Backbag</p>
+              <p>
+                $54.99 <span> <del>$94.99 </del> </span>
+              </p>
+            </div>
+            <div class="btn2">
+             <button>+</button>
+             <span>1</span>
+             <button>-</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="area2">
+          <div class="foto">
+            <img src="./IMG/photo2.png" alt="" />
+          </div>
+          <div class="yazi2">
+            <div class="yazi">
+              <p>Levi Shoes</p>
+              <p>
+                $74.99 <span> <del>$124.99 </del> </span>
+              </p>
+            </div>
+            <div class="btn2">
+            <button>+</button>
+             <span>1</span>
+             <button>-</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="area3">
+          <div class="shp">
+            <p>Shiping</p>
+            <p>$19</p>
+          </div>
+          <div class="tt">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

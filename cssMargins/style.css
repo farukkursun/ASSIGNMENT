@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    margin-top: 1rem;
+display: flex;
+justify-content: center;
+ 
+  
+  
+}
+.container{
+    font-size: 2rem;
+    border: 1px solid red;
+}
+.ana {
+  margin-top: 5rem;
+  border: 3px solid black;
+  border-radius: 20px;
+  background-color: rgb(230, 143, 112);
+  width: 60vw;
+  height: 75vh;
+  position: relative;
+}
+img {
+  width: 12rem;
+  height: 12rem;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: calc(50% - 6rem);
+  top: -6rem;
+  z-index: 1;
+}
+.metin {
+ text-align: center;
+ flex-direction: column;
+ 
+  
+  
+  
+}
+.metin h2{
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+.metin span{
+    color: yellow;
+}
+.metin p{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.altyazi {
+  margin-top: 3rem;
+  
+  cursor: pointer;
+  color: red;
+
+  text-align: center;
+}
+@media (max-width: 950px) {
+.metin p{
+    font-size: 2rem;
+}
+}
+

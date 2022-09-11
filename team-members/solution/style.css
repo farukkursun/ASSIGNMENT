@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 248, 248) !important;
+}
+header {
+    text-align: left;
+    
+  height: 9rem;
+ 
+  margin: 3rem 0;
+ 
+}
+header p, h2{
+    font-size: 1.2rem ;
+}
+
+.col {
+  display: flex;
+  
+  
+ 
+}
+
+.img p{
+    font-size: 1.4rem;
+  
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: 5px 5px 5px gray;
+  
+  
+  
+}
+
+.meslek {
+  
+
+ writing-mode: vertical-lr;
+ 
+}
+

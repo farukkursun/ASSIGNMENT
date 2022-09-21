@@ -41,13 +41,13 @@ toplamtutar=taksit*4
    <tr>
       <th>Vade</th>
       <td>${vade} ₺</td>
-      <th>Kredi Tipi</th>
+      <th>Faiz Orani</th>
       <td>${oran}</td>
     </tr>
     <tr>
       <th>Toplam Tutar</th>
       <td>${toplamtutar.toFixed(2)} ₺</td>
-      <th>Kredi Tipi</th>
+      <th>Taksit Tutari</th>
       <td>${taksit.toFixed(2)}</td>
     </tr>
   </tbody>

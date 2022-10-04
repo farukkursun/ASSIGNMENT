@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+.container {
+
+}
+.saat,
+.dakika,
+.saniye {
+  font-size: 10rem;
+  color: rgb(156, 240, 229);
+}
